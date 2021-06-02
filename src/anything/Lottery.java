@@ -16,15 +16,16 @@ public class Lottery {
         Collections.addAll(list,"你好","我好","大家好","good","better","very good");
         String list1 = new String();
         Random random = new Random();
-        while (list1!=null){
+        while (list.size()!=0){
             int r = random.nextInt(list.size());
             list1 = list.get(r);
             list.remove(r);
             System.out.println(list1);
             //随机数不能
-            if (r==0){
-                break;
-            }
+//            if (r==0){
+//                break;
+//            }
         }
     }
+
 }
