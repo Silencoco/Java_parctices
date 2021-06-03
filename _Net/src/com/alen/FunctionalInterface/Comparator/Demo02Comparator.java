@@ -1,4 +1,4 @@
-package com.alen.Lambda.Test;
+package com.alen.FunctionalInterface.Comparator;
 
 import java.util.Arrays;
 import java.util.Comparator;
